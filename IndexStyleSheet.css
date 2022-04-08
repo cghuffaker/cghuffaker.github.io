@@ -10,6 +10,7 @@ h1{
     text-align:center;
     width: 25%;
     height:100%;
+    float: left;
 }
 img {
     height: 350px;
