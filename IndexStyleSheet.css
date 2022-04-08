@@ -7,4 +7,12 @@ h1{
 }
 #home{
     text-align:center;
+    width: 25%;
+    height:100%;
+}
+img {
+    height: 95%;
+    width: 95%;
+    margin: 5%;
+    object-fit: contain;
 }
