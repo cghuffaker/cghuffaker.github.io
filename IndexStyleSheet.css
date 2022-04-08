@@ -9,7 +9,7 @@ h1{
 }
 #home {
     text-align: center;
-    width: 25%;
+    width: 20%;
     height: 100%;
     float: left;
     background-color: darkgoldenrod;
@@ -19,7 +19,7 @@ h1{
 }
 #about {
     text-align: center;
-    width: 25%;
+    width: 20%;
     height: 100%;
     float: left;
     background-color: darkgreen;
@@ -29,7 +29,7 @@ h1{
 }
 #Skills {
     text-align: center;
-    width: 25%;
+    width: 20%;
     height: 100%;
     float: left;
     background-color: darkslateblue;
@@ -52,4 +52,28 @@ img {
     margin: 1%;
     object-fit: contain;
     object-position: center;
+}
+li a {
+    background-color: darkkhaki;
+    padding: 1em 1.5em;
+    display: block;
+    margin: 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: antiquewhite;
+    text-align: center;
+    box-shadow: rgba(0,0,0,.25) -10px 15px;
+}
+#project {
+    text-align: center;
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color: darkred;
+    color: antiquewhite;
+    display: block;
+    margin: 1%;
+}
+#project:hover {
+    transform: scale(1.1);
 }
